@@ -13,3 +13,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::get('/', function () {
+    return view('welcome');
+});
+
+
+Route::get('/{vue_capture?}',function () {    //--here,"vue_capture" is just a random_variable
+    return view('welcome');                 //--if we hit with random route,it will go 'welcome' page
+})->where('vue_capture', '[\/\w\.-]*');
