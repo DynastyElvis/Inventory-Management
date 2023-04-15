@@ -45,7 +45,7 @@
 
 ## After clone or download this project, please follow the instructions
 
-- Clone the repository with **_angit clone https://github.com/Shahed-Chy-Suzan/Inventory.git_**
+- Clone the repository with **_angit clone https://github.com/DynastyElvis/Inventory-Management.git_**
 - Run **_cd Inventory_**
 - Copy **.env.example** file to **.env** and edit **Database** credentials there
 - Run **_composer install_**
